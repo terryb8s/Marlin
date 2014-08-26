@@ -483,7 +483,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 //Blue Extruder Steps Per Unit: 830
 //Green Extruder Steps Per Unit: 821?
 
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {100.32,100.65,2561.9,810}  // default steps per unit for Ultimaker
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {100.32,100.65,2561.9,808.5}  // default steps per unit for Ultimaker
 #define DEFAULT_MAX_FEEDRATE          {800,800,5,25}    // (mm/sec)
 #define DEFAULT_MAX_ACCELERATION      {9000,9000,100,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
 
@@ -495,7 +495,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 // For the other hotends it is their distance from the extruder 0 hotend.
 
 // Roughly 46.1 
-#define EXTRUDER_OFFSET_X {0.0, 46.1} // (in mm) for each extruder, offset of the hotend on the X axis
+#define EXTRUDER_OFFSET_X {0.0, -46.1} // (in mm) for each extruder, offset of the hotend on the X axis
 #define EXTRUDER_OFFSET_Y {0.0, 0.0}  // (in mm) for each extruder, offset of the hotend on the Y axis
 
 // The speed change that does not require acceleration (i.e. the software might assume it can be done instantaneously)
